@@ -4,7 +4,7 @@ import pandas as pd
 
 wofostPP = start_wofost(mode="pp")
 wofostPP.run_till_terminate()
-output = wofostPP.get_output()ex
+output = wofostPP.get_output()
 dfPP = pd.DataFrame(output).set_index("day")
 
 fig, axs = plt.subplots(nrows = 1, ncols = 2, figsize=(16,8))
