@@ -1,0 +1,3 @@
+pcse
+pandas
+matplotlib
